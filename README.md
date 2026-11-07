@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Amit Singh | Software Developer Portfolio
 
-## Getting Started
+A modern, responsive personal portfolio showcasing my skills, projects, and experience as a Software Developer.
 
-First, run the development server:
+## 🚀 Tech Stack
+- Next.js 16 (Turbopack)
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Framer Motion
+- Lucide React
+- Google Gemini AI API
+
+## ✨ Features
+- Modern Neo-Brutalist / Editorial UI
+- Dark and Light Theme with smooth view transitions
+- Responsive Design for mobile, tablet, and desktop
+- Smooth Animations & Marquee ticker
+- Interactive Real-Time AI Chatbot powered by Gemini
+- Selected Projects Showcase (Featuring CampusHub)
+- Skills Toolbox & Journey Timeline
+- Direct Message Transmission & Contact Card
+
+## 🛠️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Amit470-singh/my-portfolio.git
+cd my-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Configure your environment variables:
+
+```bash
+cp .env.example .env.local
+```
+Add your `GEMINI_API_KEY` in `.env.local` (get a free key at [Google AI Studio](https://aistudio.google.com/app/apikey)).
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 🔐 Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Add your required API keys to `.env.local`. Never commit secret keys to GitHub.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Amit Singh**
 
-## Deploy on Vercel
+- GitHub: https://github.com/Amit470-singh
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All rights reserved unless otherwise specified.
